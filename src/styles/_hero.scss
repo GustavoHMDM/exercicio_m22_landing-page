@@ -10,4 +10,13 @@
         font-size: 100px;
         color:rgb(0, 47, 255);
     }
+
+    @media screen and (max-width: 640px) {
+        padding-bottom: 150px;
+
+        &__title {
+            padding-top: 80px;
+            font-size: 80px;
+        }
+    }
 }

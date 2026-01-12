@@ -18,6 +18,10 @@
         background-image: linear-gradient(rgba(161, 196, 253, 0.8), rgba(132, 250, 176, 0.8))
     }
 
+    &__title {
+        margin-bottom: 16px;
+    }
+
     .container {
         max-width: 1024px;
         margin: 0 auto;
@@ -25,12 +29,35 @@
         gap: 20px;
 
         img {
+            max-width: 100%;
             width: 360px;
             height: 260px;
         }
 
         &--image-left {
             flex-direction: row-reverse
+        }
+    }
+
+    @media screen and (max-width: 640px) {
+
+        .container {
+            display: block;
+            padding-left: 20px;
+            padding-right: 20px;
+            
+            img {
+                max-width: 100%;
+                width: 400px;
+            }
+        }    
+    }
+
+    @media screen and (min-width: 641px) and (max-width: 1023px) {
+        
+        .container {
+            padding-left: 20px;
+            padding-right: 20px;
         }
     }
 };
