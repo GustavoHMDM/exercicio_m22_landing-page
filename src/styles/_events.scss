@@ -1,0 +1,36 @@
+.events {
+    padding-top: 100px;
+    
+    &--cake {
+        background-image: linear-gradient(rgba(255, 154, 158, 0.8), rgba(250, 208, 196, 0.8))
+    }
+
+
+    &--savory {
+        background-image: linear-gradient(rgba(250, 208, 196, 0.8),rgba(246, 211, 101, 0.8))
+    }
+
+    &--sweet {
+        background-image: linear-gradient(rgba(246, 211, 101, 0.8), rgba(161, 196, 253, 0.8))
+    }
+
+    &--drink {
+        background-image: linear-gradient(rgba(161, 196, 253, 0.8), rgba(132, 250, 176, 0.8))
+    }
+
+    .container {
+        max-width: 1024px;
+        margin: 0 auto;
+        display: flex;
+        gap: 20px;
+
+        img {
+            width: 360px;
+            height: 260px;
+        }
+
+        &--image-left {
+            flex-direction: row-reverse
+        }
+    }
+};

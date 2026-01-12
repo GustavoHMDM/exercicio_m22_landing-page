@@ -1,0 +1,13 @@
+.hero {
+    padding-bottom: 505px;
+    background-image: url(../images/balloons-8476432_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    &__title {
+        text-align: center;
+        padding-top: 200px;
+        font-size: 100px;
+        color:rgb(0, 47, 255);
+    }
+}
